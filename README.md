@@ -10,11 +10,9 @@ cd CAP
 ```
 2. Install Dependencies (ignore if you've installed tqdm, sklearn, and openai)
 ```
-conda create -n cap python=3.10
+conda create -n cap python=3.10 -y
 conda activate cap
-conda install tqdm
-conda install scikit-learn
-conda install open
+conda install tqdm scikit-learn openai -y
 ```
 
 ## Code Organization
