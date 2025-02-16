@@ -2,6 +2,20 @@
 This repository contains the code for "Mitigating Hallucinations in Multimodal Spatial Relations through Constraint-Aware Prompting," NAACL Findings 2025. You can access the paper <a href="https://arxiv.org/abs/2502.08317" target="_blank">here<a> 
 
 ## How to Run
+### Install
+1. Clone this repository and navigate to CAP folder
+```
+git clone https://github.com/jwu114/CAP.git
+cd CAP
+```
+2. Install Dependencies (ignore if you've installed tqdm, sklearn, and openai)
+```
+conda create -n cap python=3.10
+conda activate cap
+conda install tqdm
+conda install scikit-learn
+conda install open
+```
 
 ## Code Organization
 ```
