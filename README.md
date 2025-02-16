@@ -15,9 +15,9 @@ conda activate cap
 conda install tqdm scikit-learn openai -y
 ```
 ### Prepare Dataset
-- Download and put the images of <a href="https://github.com/mertyg/vision-language-models-are-bows" target="_blank">ARO dataset<a> under ./dataset/aro/images
-- Download and put the images of <a href="https://cs.stanford.edu/people/dorarad/gqa/download.html" target="_blank">GQA dataset<a> under ./dataset/gqa/images
-- Download and put the images of <a href="https://github.com/niejiahao1998/MMRel" target="_blank">MMRel dataset<a> under ./dataset/mmrel/images
+- Download and put the images of <a href="https://github.com/mertyg/vision-language-models-are-bows" target="_blank">ARO dataset<a> under ./dataset/aro/images/
+- Download and put the images of <a href="https://cs.stanford.edu/people/dorarad/gqa/download.html" target="_blank">GQA dataset<a> under ./dataset/gqa/images/
+- Download and put the images of <a href="https://github.com/niejiahao1998/MMRel" target="_blank">MMRel dataset<a> under ./dataset/mmrel/images/
 
 ## Code Organization
 ```
