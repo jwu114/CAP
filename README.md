@@ -22,7 +22,7 @@ conda install tqdm scikit-learn openai -y
 ### Get OpenAI API Key
 You need to get your own API key from <a href="https://openai.com/api/">OpenAI<a>. After obtaining the key, include it in the ./run.sh file.
 
-### Run the Program
+### Run Program
 After changing to the correct working directory, enter:
 ```
 bash run.sh
