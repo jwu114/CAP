@@ -1,4 +1,3 @@
-openai_key = "" # replace with your own key
 sample_size = 600
 
 """
