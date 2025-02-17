@@ -93,16 +93,16 @@ def evaluate(dataset, prompt, args):
     
     # evaluate
     # calculate accuracy
-    accuracy = accuracy_score(gt_labels, p_labels[i])
+    accuracy = accuracy_score(gt_labels, p_labels)
     print(f"Accuracy: {accuracy * 100:.2f}%", end=" ")
     # calculate precision
-    precision = precision_score(gt_labels, p_labels[i])
+    precision = precision_score(gt_labels, p_labels)
     print(f"Precision: {precision * 100:.2f}%", end=" ")
     # calculate recall
-    recall = recall_score(gt_labels, p_labels[i])
+    recall = recall_score(gt_labels, p_labels)
     print(f"Recall: {recall * 100:.2f}%", end=" ")
     # calculate F1 score
-    f1 = f1_score(gt_labels, p_labels[i])
+    f1 = f1_score(gt_labels, p_labels)
     print(f"F1 Score: {f1 * 100:.2f}%")
     
     print()
