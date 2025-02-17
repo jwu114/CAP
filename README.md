@@ -19,6 +19,9 @@ conda install tqdm scikit-learn openai -y
 - Download and put the images of <a href="https://cs.stanford.edu/people/dorarad/gqa/download.html" target="_blank">GQA dataset<a> under ./dataset/gqa/images/
 - Download and put the images of <a href="https://github.com/niejiahao1998/MMRel" target="_blank">MMRel dataset<a> under ./dataset/mmrel/images/
 
+### Get OpenAI API Key
+You need to get your own API key from <a href="https://openai.com/api/">OpenAI<a>. After obtaining the key, include it in the ./run.sh file.
+
 ## Code Organization
 ```
 ├── config
