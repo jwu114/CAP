@@ -56,13 +56,17 @@ You can modify the dataset and prompt used in the evaluation. More details about
 ## Citation
 If our work is useful for your research, please cite our paper:
 ```
-@misc{wu2025mitigatinghallucinationsmultimodalspatial,
-      title={Mitigating Hallucinations in Multimodal Spatial Relations through Constraint-Aware Prompting}, 
-      author={Jiarui Wu and Zhuo Liu and Hangfeng He},
-      year={2025},
-      eprint={2502.08317},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2502.08317}, 
+@inproceedings{wu-etal-2025-mitigating,
+    title = "Mitigating Hallucinations in Multimodal Spatial Relations through Constraint-Aware Prompting",
+    author = "Wu, Jiarui and Liu, Zhuo and He, Hangfeng",
+    editor = "Chiruzzo, Luis and Ritter, Alan and Wang, Lu",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2025",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-naacl.192/",
+    pages = "3450--3468",
+    ISBN = "979-8-89176-195-7"
 }
 ```
